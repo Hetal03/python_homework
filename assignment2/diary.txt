@@ -1,0 +1,3 @@
+I had a productive Python session.
+What else? Practiced writing to files.
+What else? Practiced writing to files.
