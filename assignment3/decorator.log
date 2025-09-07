@@ -1,0 +1,18 @@
+
+function: greet
+positional parameters: none
+keyword parameters: none
+return: None
+
+
+function: accept_positional
+positional parameters: (10, 20, 30)
+keyword parameters: none
+return: True
+
+
+function: accept_keyword
+positional parameters: none
+keyword parameters: {'name': 'Hetal', 'course': 'Python', 'week': 3}
+return: <function logger_decorator at 0x0000026D260DCFE0>
+
