@@ -1,0 +1,5 @@
+product_id,line_item_id,total,product_name
+3,1,1500.0,Headphones
+4,1,225.0,Keyboard
+1,2,3600.0,Laptop
+2,2,5600.0,Smartphone
