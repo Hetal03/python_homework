@@ -1,0 +1,4 @@
+Search Result Container: li.row.cp-search-result-item
+Title: span.title-content
+Author(s): a.author-link
+Format + Year: span.cp-screen-reader-message
