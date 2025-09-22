@@ -1,0 +1,4 @@
+Challenges Faced:
+1. Locating the correct XPath for the top 10 vulnerabilities was tricky because of nested HTML elements. I solved this by inspecting the page source and testing XPath in the browser console.
+2. Ensuring the page loaded before scraping required adding implicit waits to avoid missing elements.
+3. Writing the extracted data to CSV was straightforward using pandas, which simplified storing the structured data.

@@ -1,0 +1,26 @@
+Restricted sections for crawling:
+- /wiki/Special:
+- /wiki/Talk:
+- /wiki/User:
+- /wiki/Wikipedia:
+- /w/
+- /wiki/File:
+- /wiki/Template:
+- /wiki/Template_talk:
+- /wiki/Help:
+- /wiki/Category:
+- /wiki/Portal:
+- /wiki/Book:
+- /wiki/Draft:
+
+
+Specific rules for certain user agents:
+- User-agent: *
+  Disallows crawling of certain pages like /wiki/Special:, /wiki/Talk:, /w/, and other administrative or sensitive sections.
+- User-agent: Googlebot
+  Some sections may have specific rules, allowing Googlebot to crawl more pages compared to other bots.
+- User-agent: AdsBot-Google, Bingbot, and others
+  Each may have its own set of allowed or disallowed paths, defined to control automated access while protecting server resources and sensitive content.
+
+
+Websites use robots.txt to communicate which parts of the site should not be accessed by automated bots. This helps protect sensitive pages, reduces server load, and prevents unintended disruptions. By following robots.txt rules, web scrapers can collect data responsibly and ethically, respecting the website’s guidelines.
